@@ -59,6 +59,7 @@ a {
 .box {
   height: 50px;
   width: 50px;
+
   border-radius: 50px;
   background-color: #6969698c;
   line-height: 50px;
@@ -98,4 +99,18 @@ a {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
+.camera-frame {
+  width: 100px;
+  height: 100px;
+  border: 2px solid white;
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: #000;
+}
+
+#cameraVideo {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
